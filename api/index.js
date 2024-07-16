@@ -1,7 +1,7 @@
 import express from "express";
-import { PORT, mongoDBURL } from "./config.js";
+import { PORT, mongoDBURL } from "../config.js";
 import mongoose from "mongoose";
-import usersRoute from "./routes/usersRoute.js";
+import usersRoute from "../routes/usersRoute.js";
 import cors from "cors";
 
 const app = express();
